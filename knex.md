@@ -501,3 +501,21 @@ knex migrate:rollback
 ```
 
 See: [Migrations](http://knexjs.org/#Migrations)
+
+## Seeds
+
+### Setting up
+
+#### Create a seed
+
+```
+knex seed:make seed_name
+```
+
+#### Run all seeds
+
+```
+knex seed:run
+```
+
+See: [Seeds-CLI](http://knexjs.org/#Seeds-CLI)
